@@ -7,7 +7,7 @@ This is the code for "PepMSND: Integrating Multi-level Feature Engineering and C
 ```shell
 bashCopy code/
 ├── Baseline models/            
-├── Datasets/  
+├── Dataset/  
 ├── Models/ 
 ├── Peptide structure Dataset/  
 ├── Vocab.txt/   
@@ -29,7 +29,7 @@ pip install requirments.txt
 ### Dataset
 
 ```shell
-The ./data directory contains datasets that have been processed by preprocessing code for 10-fold cross-validation. If you need the full dataset, please download it from http://model.highslab.com/static/Database.html.
+The "./Dataset" directory contains a complete set of 635 data points regarding the stability of peptides in blood. For an easy-to-browse version of the dataset, you can visit http://model.highslab.com/static/Database.html.
 ```
 ### Training model
 
