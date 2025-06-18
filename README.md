@@ -22,7 +22,7 @@ bashCopy code/
 Running this  command for installing dependency in docker:
 
 ```shell
-pip install requirments.txt
+pip install -r requirements.txt
 ./replace.sh
 ```
 
